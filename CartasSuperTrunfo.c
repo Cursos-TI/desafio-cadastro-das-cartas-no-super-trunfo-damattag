@@ -131,10 +131,10 @@ int main() {
         printf("Pontos Turísticos: Carta 2 venceu (%d)\n", turisticPoints > turisticPoints1);
     }
 
-    if (populationDensity > populationDensity1) {
-        printf("Densidade Populacional: Carta 1 venceu (%d)\n", populationDensity > populationDensity1);
+    if (populationDensity < populationDensity1) {
+        printf("Densidade Populacional: Carta 1 venceu (%d)\n", populationDensity < populationDensity1);
     } else {
-        printf("Densidade Populacional: Carta 2 venceu (%d)\n", populationDensity > populationDensity1);
+        printf("Densidade Populacional: Carta 2 venceu (%d)\n", populationDensity < populationDensity1);
     }
 
     if (pibPerCapita > pibPerCapita1) {
